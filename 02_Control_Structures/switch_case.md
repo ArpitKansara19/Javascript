@@ -47,8 +47,8 @@ switch(day) {
         console.log("Invalid day");
 }
 ```
-Example 2: Calculator using Switch Case
-
+## Example 2: Calculator using Switch Case
+```javascript
 let a = 10;
 let b = 5;
 let operator = "+";
@@ -69,10 +69,11 @@ switch(operator) {
     default:
         console.log("Invalid operator");
 }
+```
 
-Important Points
-The break statement prevents the execution from falling through to the next case.
+## Important Points
+- The `break` statement prevents the execution from falling through to the next case.
+- The `default` case is executed when none of the cases match.
+- Without `break`, the code continues to the next case even if a match is found.
 
-The default case is executed when none of the cases match.
-
-Without break, the code continues to the next case even if a match is found.
+---
