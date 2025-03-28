@@ -24,13 +24,13 @@ Used for performing mathematical calculations.
 
 | **Operator** | **Description**      | **Example**               |
 |--------------|----------------------|---------------------------|
-| `+`          | Addition              | `5 + 2 = 7`               |
-| `-`          | Subtraction           | `5 - 2 = 3`               |
-| `*`          | Multiplication        | `5 * 2 = 10`              |
-| `/`          | Division              | `5 / 2 = 2.5`             |
-| `%`          | Modulus (Remainder)   | `5 % 2 = 1`               |
-| `++`         | Increment             | `let a = 5; a++ = 6`      |
-| `--`         | Decrement             | `let a = 5; a-- = 4`      |
+| +          | Addition              | 5 + 2 = 7               |
+| -          | Subtraction           | 5 - 2 = 3               |
+| *          | Multiplication        | 5 * 2 = 10              |
+| /          | Division              | 5 / 2 = 2.5             |
+| %          | Modulus (Remainder)   | 5 % 2 = 1               |
+| ++         | Increment             | let a = 5; a++ = 6      |
+| --         | Decrement             | let a = 5; a-- = 4      |
 
 ### 📁 **Example:**
 ```javascript
@@ -50,12 +50,12 @@ Used to assign values to variables.
 
 | **Operator** | **Example**     | **Equivalent To**        |
 |--------------|----------------|--------------------------|
-| `=`          | `x = y`         | `x = y`                  |
-| `+=`         | `x += y`        | `x = x + y`              |
-| `-=`         | `x -= y`        | `x = x - y`              |
-| `*=`         | `x *= y`        | `x = x * y`              |
-| `/=`         | `x /= y`        | `x = x / y`              |
-| `%=`         | `x %= y`        | `x = x % y`              |
+| =          | x = y         | x = y                  |
+| +=         | x += y        | x = x + y              |
+| -=         | x -= y        | x = x - y              |
+| *=         | x *= y        | x = x * y              |
+| /=         | x /= y        | x = x / y              |
+| %=         | x %= y        | x = x % y              |
 
 ### 📁 **Example:**
 ```javascript
@@ -71,14 +71,14 @@ Used to compare two values.
 
 | **Operator** | **Description**       | **Example**               |
 |--------------|-----------------------|---------------------------|
-| `==`         | Equal to               | `5 == '5' // true`        |
-| `===`        | Strict equal to        | `5 === '5' // false`      |
-| `!=`         | Not equal to           | `5 != '5' // false`       |
-| `!==`        | Strict not equal       | `5 !== '5' // true`       |
-| `>`          | Greater than           | `5 > 3 // true`           |
-| `<`          | Less than              | `5 < 3 // false`          |
-| `>=`         | Greater than or equal  | `5 >= 5 // true`          |
-| `<=`         | Less than or equal     | `5 <= 5 // true`          |
+| ==         | Equal to               | 5 == '5' // true        |
+| ===        | Strict equal to        | 5 === '5' // false      |
+| !=         | Not equal to           | 5 != '5' // false       |
+| !==        | Strict not equal       | 5 !== '5' // true       |
+| >          | Greater than           | 5 > 3 // true           |
+| <          | Less than              | 5 < 3 // false          |
+| >=         | Greater than or equal  | 5 >= 5 // true          |
+| <=         | Less than or equal     | 5 <= 5 // true          |
 
 ### 📁 **Example:**
 ```javascript
@@ -95,9 +95,9 @@ Used to perform logical operations.
 
 | **Operator** | **Description**       | **Example**               |
 |--------------|-----------------------|---------------------------|
-| `&&`         | Logical AND            | `true && false // false`  |
-| `||`         | Logical OR             | `true || false // true`   |
-| `!`          | Logical NOT            | `!true // false`          |
+| &&         | Logical AND            | true && false // false  |
+| ||         | Logical OR             | true || false // true   |
+| !          | Logical NOT            | !true // false          |
 
 ### 📁 **Example:**
 ```javascript
@@ -115,12 +115,12 @@ Used to perform bitwise operations.
 
 | **Operator** | **Description**       | **Example**               |
 |--------------|-----------------------|---------------------------|
-| `&`          | AND                    | `5 & 1 // 1`              |
-| `|`          | OR                     | `5 | 1 // 5`              |
-| `^`          | XOR                    | `5 ^ 1 // 4`              |
-| `~`          | NOT                    | `~5 // -6`                |
-| `<<`         | Left Shift             | `5 << 1 // 10`            |
-| `>>`         | Right Shift            | `5 >> 1 // 2`             |
+| &          | AND                    | 5 & 1 // 1              |
+| \|          | OR                     | 5 \| 1 // 5              |
+| ^          | XOR                    | 5 ^ 1 // 4              |
+| ~          | NOT                    | ~5 // -6                |
+| <<         | Left Shift             | 5 << 1 // 10            |
+| >>         | Right Shift            | 5 >> 1 // 2             |
 
 ### 📁 **Example:**
 ```javascript
@@ -148,8 +148,8 @@ Used to determine the type of a variable or to create an object instance.
 
 | **Operator** | **Description**           | **Example**                |
 |--------------|---------------------------|----------------------------|
-| `typeof`     | Returns the type of a variable | `typeof 5 // 'number'` |
-| `instanceof` | Checks if an object is an instance of a class | `obj instanceof Array` |
+| typeof     | Returns the type of a variable | typeof 5 // 'number' |
+| instanceof | Checks if an object is an instance of a class | obj instanceof Array |
 
 ### 📁 **Example:**
 ```javascript
@@ -160,6 +160,6 @@ console.log([] instanceof Array); // true
 ---
 
 ## 🏁 **Important Points to Remember**
-- Always use `===` instead of `==` for strict equality.
-- The `typeof null` returns "object" due to a legacy bug.
+- Always use === instead of == for strict equality.
+- The typeof null returns "object" due to a legacy bug.
 - Bitwise operators are rarely used in high-level applications.
