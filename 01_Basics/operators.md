@@ -96,7 +96,7 @@ Used to perform logical operations.
 | **Operator** | **Description**       | **Example**               |
 |--------------|-----------------------|---------------------------|
 | &&         | Logical AND            | true && false // false  |
-| || cd        | Logical OR             | true || false // true   |
+| ||      | Logical OR             | true || false // true   |
 | !          | Logical NOT            | !true // false          |
 
 ### 📁 **Example:**
