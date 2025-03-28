@@ -1,6 +1,3 @@
-# Creating the switch_case.md file with the provided content
-
-md_content = """
 # Switch Case Statement in JavaScript
 
 ## Introduction
@@ -18,9 +15,10 @@ switch(expression) {
     default:
         // Code to execute if none of the cases match
 }
+```
 
-Example 1: Day of the Week
-
+## Example 1: Day of the Week
+```javascript
 let day = 3;
 
 switch(day) {
@@ -48,7 +46,7 @@ switch(day) {
     default:
         console.log("Invalid day");
 }
-
+```
 Example 2: Calculator using Switch Case
 
 let a = 10;
