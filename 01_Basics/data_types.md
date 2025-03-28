@@ -1,20 +1,20 @@
-# \ud83d\udcca **JavaScript Data Types**
+# 📊 **JavaScript Data Types**
 
 ---
 
-## \ud83d\udd0d **What are Data Types?**  
+## 🔍 **What are Data Types?**  
 Data types define the kind of data a variable can hold in JavaScript. It helps determine how memory is allocated and what operations can be performed.
 
 ---
 
-## \ud83c\udff7\ufe0f **Two Categories of Data Types**  
+## 🏷️ **Two Categories of Data Types**  
 
 1. **Primitive Data Types** (Stored by **Value**)  
 2. **Reference Data Types** (Stored by **Reference**)  
 
 ---
 
-## 1\u20e3 **Primitive Data Types**  
+## 1️⃣ **Primitive Data Types**  
 These are immutable and store simple values.  
 
 | **Type**        | **Description**                         | **Example**                                 |
@@ -29,7 +29,7 @@ These are immutable and store simple values.
 
 ---
 
-## 2\u20e3 **Reference Data Types**  
+## 2️⃣ **Reference Data Types**  
 These are mutable and store complex data structures.  
 
 | **Type**        | **Description**                         | **Example**                                 |
@@ -40,7 +40,7 @@ These are mutable and store complex data structures.
 
 ---
 
-## \ud83d\udee1\ufe0f **How to Check Data Type?**  
+## 🛡️ **How to Check Data Type?**  
 You can check the data type of any variable using the `typeof` operator.
 
 ```javascript
@@ -56,7 +56,7 @@ console.log(typeof BigInt(123));  // "bigint"
 
 ---
 
-## \ud83d\udee9 **Important Points to Remember**  
+## 🏁 **Important Points to Remember**  
 - `null` is considered an object due to legacy reasons.
 - `undefined` means a variable is declared but not initialized.
 - JavaScript is dynamically typed, meaning you don’t need to define the data type.
