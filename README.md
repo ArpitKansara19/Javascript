@@ -28,5 +28,6 @@
 - 🧮 **Calculator** — A functional calculator using DOM.
 - 📝 **To-Do List** — Task management app.
 - 🌦️ **Weather App** — Real-time weather data.
+- 🦈 **Shark Tank** — A dynamic project where users can add data via forms, store it in JSON, delete entries, and modify specific or multiple fields, similar to an add-to-cart system.
 
 ---
