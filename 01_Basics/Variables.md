@@ -71,7 +71,6 @@ let person = {name: "Sam"};     // Object
 | Feature          | var            | let            | const          |
 |------------------|----------------|----------------|--------------- |
 | Scope            | Function       | Block          | Block          |
-
 | Redeclaration    | ✅ Yes          | 🚫 No          | 🚫 No      
 | Reassignment     | ✅ Yes          | ✅ Yes         | 🚫 No        
 | Hoisting         | ✅ Yes          | 🚫 No          | 🚫 No        
