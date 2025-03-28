@@ -1,3 +1,4 @@
+
 # If-Else Statement in JavaScript
 
 ## Introduction
@@ -10,9 +11,10 @@ if (condition) {
 } else {
     // Code to execute if the condition is false
 }
+```
 
-Example 1: Checking Age for Voting Eligibility
-
+## Example 1: Checking Age for Voting Eligibility
+```javascript
 let age = 18;
 
 if (age >= 18) {
@@ -20,9 +22,10 @@ if (age >= 18) {
 } else {
     console.log("You are not eligible to vote.");
 }
+```
 
-Example 2: Checking Even or Odd Number
-
+## Example 2: Checking Even or Odd Number
+```javascript
 let number = 10;
 
 if (number % 2 === 0) {
@@ -30,12 +33,12 @@ if (number % 2 === 0) {
 } else {
     console.log("The number is odd.");
 }
+```
 
+## Nested If-Else
+You can nest `if-else` statements within each other to handle multiple conditions.
 
-Nested If-Else
-
-You can nest if-else statements within each other to handle multiple conditions.
-
+```javascript
 let marks = 85;
 
 if (marks >= 90) {
@@ -47,22 +50,21 @@ if (marks >= 90) {
 } else {
     console.log("Grade: F");
 }
+```
 
+## Ternary Operator (Shorter If-Else)
+The ternary operator provides a shorter way to write `if-else`.
 
-Ternary Operator (Shorter If-Else)
-
-The ternary operator provides a shorter way to write if-else.
-
+```javascript
 let num = 5;
 let result = (num > 0) ? "Positive Number" : "Negative Number";
 console.log(result);
+```
 
+## Conclusion
+- The `if` statement executes a block of code if the condition is `true`.
+- The `else` statement executes an alternative block if the condition is `false`.
+- Multiple conditions can be handled using `else if`.
+- The ternary operator (`condition ? trueStatement : falseStatement`) is a shorthand for `if-else`.
 
-Conclusion
-The if statement executes a block of code if the condition is true.
-
-The else statement executes an alternative block if the condition is false.
-
-Multiple conditions can be handled using else if.
-
-The ternary operator (condition ? trueStatement : falseStatement) is a shorthand for if-else.
+---
